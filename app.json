@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "Alahmad TV",
+    "slug": "alahmad-tv-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.alahmadtv.app"
+    },
+    "android": {
+      "package": "com.alahmadtv.app",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "ACCESS_NETWORK_STATE"
+      ]
+    },
+    "extra": {
+      "eas": {
+        "projectId": "alahmad-tv-app"
+      }
+    }
+  }
+} 
